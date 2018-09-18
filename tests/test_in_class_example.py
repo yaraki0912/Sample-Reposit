@@ -12,3 +12,9 @@ class TestExample(unittest.TestCase):
     def TestGreetingStudent(self):
         assert GreetingStudent("2019")
         self.assertEqual("Welcome back seniors",GreetingStudent)
+        assert GreetingStudent("2020")
+        self.assertEqual("Welcome back juniors",GreetingStudent)
+        assert GreetingStudent("2021")
+        self.assertEqual("Welcome back sophmors",GreetingStudent)
+        assert GreetingStudent("2022")
+        self.assertEqual("Welcome to college",GreetingStudent)
