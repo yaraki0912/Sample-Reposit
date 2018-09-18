@@ -2,7 +2,7 @@ import pytest
 
 
 
-from example import *
+#from example import *
 
 class TestExample(unittest.TestCase):
 #@pytest.fixture
